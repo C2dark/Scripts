@@ -25,7 +25,7 @@ QX 1.0.5+ :
 */
 // #region 固定头部
 let isQuantumultX = $task != undefined; //判断当前运行环境是否是qx
-let isSurge = $httpClient != undefined; //判断当前运行环境是否是surge
+//let isSurge = $httpClient != undefined; //判断当前运行环境是否是surge
 // http请求
 var $task = isQuantumultX ? $task : {};
 var $httpClient = isSurge ? $httpClient : {};
